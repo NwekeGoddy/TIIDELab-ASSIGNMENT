@@ -1,0 +1,59 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*{
+    font-family: Inter, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li {list-style-type: none;
+    font-size: 20px;
+    }
+    .mail {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 400px;
+    background : 
+    #b1e9a3;
+    border: 1px soild 
+    #b1e9a3;;
+    }
+    .mail h2 {
+    margin-left: 40px;
+    color: #4c9173
+    }
+    input {
+    font-size: 20px;
+    border: none;
+    padding: 6px 10px;
+    }
+
+    input:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    input:focus, textarea:focus{
+    background-color: 
+    lightyellow;
+    outline: none;
+    border: none;
+    padding: 6px 10px;
+    }
+
+
+    input.yeh {
+    font-size: 20px;
+    border-radius: 4px;
+    color: #4c9173;
+    padding: 6px 10px;
+    border: 1px solid #4c9173;
+    background-color:#b1e9a35a;
+    }
+
+    input.yeh:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .rq {
+    color: 
+    #FF0000;
+    font-size:20px;
+    }
