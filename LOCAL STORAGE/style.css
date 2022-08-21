@@ -1,0 +1,165 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #FEFFFE;
+    --mid: #517664;
+    --end: #0D1321 ;
+  }
+
+body{
+    font-family: 'Roboto Mono', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--end);   
+}
+
+header{
+    padding: 30px 20px;
+    background-color: var(--end);
+}
+
+header h2{
+    
+    text-align: center;
+    color: var(--white);
+}
+
+.collect{
+    margin: 50px;
+}
+
+.collect h3{
+   color: var(--end);
+   margin-bottom: 20px;
+}
+
+.collect input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    width: 250px;
+    border: 1px solid var(--end);
+    border-radius: 4px;
+}
+
+.collect input:hover{
+    box-shadow:        1px 1px 3px 3px #ccc;
+}
+
+label.uppic{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: var(--end);
+    font-weight: 500;
+}
+
+.collect input{
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    width: 250px;
+    border: 1px solid var(--end);
+    border-radius: 4px;
+}
+
+.submitdata{
+    border: 1px solid var(--end);
+    border-radius: 4px;
+    background-color: var(--end);
+    color: var(--white);
+    padding: 8px 10px;
+    font-size: 15px;
+}
+
+.hr{
+    max-width: 100vw; 
+    text-align: center; 
+    border-bottom: 2px solid var(--end); 
+    line-height: 0.1em;
+    margin: 0px 50px; 
+}
+
+.useradata-topic{
+    background: var(--white); 
+    padding:0 10px; 
+    font-size: 25px;
+
+}
+
+/* DISPLAY SECTION */
+.display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+.each-display{
+    margin: 0px 20px 20px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: fit-content;
+}
+
+.each-display:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .each-display .details{
+        padding: 10px 10px 0px 10px;
+  }
+
+  .each-display .buttons{
+    padding: 0px 10px 10px 10px;
+  }
+  
+.each-display .profimage img{
+   width: 200px;
+   height: 200px;
+   background-size: cover;
+   /* height: 70px; */
+}
+
+.each-display .details div{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-white-space: nowrap;
+    overflow: hidden;
+
+    width: 180px;
+}
+
+.each-display .edit, .del{
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: var(--end);
+    color: var(--white);
+    padding: 8px 10px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+ }
+
+
+ /* Footer Delete All Button */
+
+ .delete-all{
+     margin-top: 20px;
+     margin-bottom: 20px;
+    border: 1px solid var(--end);
+    border-radius: 4px;
+    background-color: var(--end);
+    color: var(--white);
+    padding: 8px 10px;
+    font-size: 15px;
+ }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

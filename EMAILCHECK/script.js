@@ -1,27 +1,27 @@
 function ValidateEmail(inputText)
-{
-    var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+// {
+//     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
-    if(inputText.value.match(mailformat)){
+//     if(inputText.value.match(mailformat)){
 
-        alert(`${printAsterick(inputText.value.length)}`);
-        document.form1.text1.focus();
-        return true;
-    }
-    else{
-    alert("You have entered an invalid email address!");
-    document.form1.text1.focus();
-    return false;
-    }
-}
+//         alert(`${printAsterick(inputText.value.length)}`);
+//         document.form1.text1.focus();
+//         return true;
+//     }
+//     else{
+//     alert("You have entered an invalid email address!");
+//     document.form1.text1.focus();
+//     return false;
+//     }
+// }
 
-function printAsterick (num){
-  let str = "";
-  for(let i = 0; i < 20; i++){
-      str += "*"
-  }
-  return str;
-}
+// function printAsterick (num){
+//   let str = "";
+//   for(let i = 0; i < 20; i++){
+//       str += "*"
+//   }
+//   return str;
+// }
 
 // function toCamelCase(str) {
 //     // Lower cases the string
@@ -168,3 +168,4 @@ function printAsterick (num){
 //      }
 
 //    so([3,2,1,6], 3)
+
